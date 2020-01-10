@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D-Log</title>
+    <description>결국은 콘텐츠도 혼자서 다 만들 줄 알아야겠죠?</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 10 Jan 2020 19:10:18 +0900</pubDate>
+    <lastBuildDate>Fri, 10 Jan 2020 19:10:18 +0900</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>파이널컷 프로 X 기본 인터페이스 2</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../img/post/05/post05.png&quot; alt=&quot;영상 썸네일&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;파이널 컷 프로의 장점 : 쉽다. 직관적이다&lt;/p&gt;
+
+&lt;p&gt;파이널 컷 프로의 단점 : 왜 쉽다는데 난 잘 못 쓰니..?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;New Keyword Collection (핵중요)&lt;/p&gt;
+
+    &lt;p&gt;라이브러리 안의 라이브러리는 안 된다고 지난 시간에 엄중 경고(?)한 바 있습니다. 그럼 이벤트 안에 이벤트 생성은 됩니까? 라고 물으신다면..&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/06/Keywordcollection.png&quot; alt=&quot;interface&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;당연히 안 되니까 이런 말도 안 되는 질문을 했겠죠? 그럴 땐 요로코롬 ‘키워드’ 분류를 해주면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/06/inout.png&quot; alt=&quot;inout&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그런데 이 키워드는 분류는 소스의 ‘부분’도 가능합니다. 쓰고자 하는 부분의 시작에서 ‘i’를 마지막 지점에서 ‘o’를 눌러주시면(In&amp;amp;Out의 약자가 곧 단축키) 첨부한 이미지처럼 소스 내에서 사용할 부분만 체킹이 됩니다. 그리고 이 부분만 Keyword Collection도 가능하다는 말이죠.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;project&quot;&gt;Project&lt;/h3&gt;
+
+&lt;p&gt;소스 분류하는 방법을 알았으니 추가적으로 영상 관련 세팅을 해주신다면 영상 편집 시작이 가능하겠죠?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/06/project.png&quot; alt=&quot;project&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;해당 경로로 시작하면 됩니다. 역시 텍스트보다는 이미지로 설명하는 것이 우왕굳..&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/06/projectsetting.png&quot; alt=&quot;projectsetting&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;자..! 여러분..! 이 프로젝트 설정값 때문에 그 길고 지루한 영상 이론들을 배운 겁니다!&lt;/p&gt;
+
+&lt;p&gt;만약 프레임 레이트 29.97p 써놓고 위에 Drop Frame 설정 안 했으면 마지막 멘트가 과감히 삭제되는 대참사가 벌어질 뻔했쥬?&lt;/p&gt;
+
+&lt;p&gt;여기서 Rendering은 그 때 그 때의 최종본을 이르는 말입니다. 파컷은 작업 틈틈이 해당 과정을 렌더링 하는 특성을 가지고 있쥬. 코덱은 표준인 프로레스 422를 선택해줍니다.&lt;/p&gt;
+
+&lt;p&gt;그리고 제목은 제발 직관적이고 상세하게 적읍시다. 최종 진짜최종 최최종 더이상 ㄴㄴ&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;storyline&quot;&gt;Storyline&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/06/storyline.png&quot; alt=&quot;storyline&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;프로젝트를 생성하면 타임라인 센터에 진한 줄이 생성됩니다. 여길 기점으로 스토리라인을 짜고 편집이 시작되는 것이죠. 프로젝트 생성 안 하면 활성화되지 않는 영역이니 ‘어우씨 이거 왜 안 생겨!’ 하시면 아니되옵니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/06/append.png&quot; alt=&quot;append&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그렇게 대략적인 분류와 세팅이 끝나면 이제 ‘Append’라 불리는 바로 뒤에 이어 붙이기를 통해 영상 편집을 시작한다고 보면 됩니다 ^^&lt;/p&gt;
+
+&lt;p&gt;다음 포스팅에서 ‘분류’에 관한 정산과 함께 본격적인 기본 편집에 대해 다룰테니 많이 기대해 주세요..?&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Jan 2020 21:00:00 +0900</pubDate>
+        <link>http://localhost:4000/dlog-fcpxinterface2/</link>
+        <guid isPermaLink="true">http://localhost:4000/dlog-fcpxinterface2/</guid>
+        
+        <category>파이널컷</category>
+        
+        <category>유튜브</category>
+        
+        <category>영상이론</category>
+        
+        <category>FCPX</category>
+        
+        
+        <category>video</category>
+        
+      </item>
+    
+      <item>
+        <title>파이널컷 프로 X 기본 인터페이스</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../img/post/05/post05.png&quot; alt=&quot;영상 썸네일&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;파이널 컷 프로의 장점 : Mac과 연동이 잘 된다. 영상 프로그램 중 최적화는 갑&lt;/p&gt;
+
+&lt;p&gt;파이널 컷 프로의 단점 : 일단 Mac을 사는데 지갑 탈탈탈&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;인터페이스-구성&quot;&gt;인터페이스 구성&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/interface.png&quot; alt=&quot;interface&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;각 영역을 부르는 이름입니다. 이걸 반드시 알아둬야 하는 것이.. 나중에 분명 협업 비스무리한 것을 할 텐데, 그 때 가서 “그 맨 왼쪽 상단에 거기 제목 적는 세 번째 칸 있잖아요?” 하면 을매나 읎어 보이겠어요.. ㅜㅜ&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;1-sidebar&quot;&gt;1. Sidebar&lt;/h4&gt;
+
+&lt;p&gt;좌측 최상단에서 제목, 키워드 등을 분류해 놓은 영역을 사이드바라고 합니다. 여기서 같이 알아둬야 할 ‘파이널 컷 프로’의 분류 체계가 있는데..&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/library.png&quot; alt=&quot;library&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;여기서 Library란 ‘파이널 컷 프로’의 ‘저장 단위’를 말합니다. 특이한 점은 프로그램 안에서 삭제는 되지 않고 Open/Close 만 가능합니다. 윈도우 프로그램에 익숙해져 있다면 다소 생소한 체계일테니 적응 안 되시는 분들은 맥에 대해 먼저 학습을 간단하게 하시고 사용하시는 걸 추천..!&lt;/p&gt;
+
+&lt;p&gt;그리고 필히 영상 제작 시작할 때 라이브러리의 이름을 정해야 합니다. 혹여나 어디에 영상이나 Xml 제출시에 ‘Untitled 1’라는 작태가 적발된다면.. 그 자리에서 입구컷을 당하게 될 겁니다.&lt;/p&gt;
+
+&lt;p&gt;그리고 여기서 정말 중요한 포인트!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/notgood.png&quot; alt=&quot;notgood&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(하나의 이벤트 안에 여러 이벤트 만들기 금지)&lt;/p&gt;
+
+&lt;p&gt;이게 무슨 말인고 하니.. 여러분이 만약 무한도전을 편집한다고 치면? 하위 폴더인 이벤트에는 세부 갈래로 소스를 분류해야지, 여기에 또 다시 라이브러리급 개념을 넣으면 ‘분류’의 ㅂ도 모르는 사람이 됩니다.&lt;/p&gt;
+
+&lt;p&gt;그런데 라이브러리를 삭제하지 못한다면 영원히 저장 공간 안에서 살아 숨쉬는 괴물이 되는 걸까요..?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;  &lt;img src=&quot;../img/post/05/reveal.png&quot; alt=&quot;reveal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;는 무슨.. 해당 라이브러리가 있는 폴더를 열어 삭제해 주시면 됩니다. 윈도우의 ‘폴더 열기’ 같은 개념이라고 보면 되겠네요.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2-browser&quot;&gt;2. Browser&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/browser.png&quot; alt=&quot;browser&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;쉽게 얘기하자면 우리가 분류해 놓은 소스들을 확인할 수 있는 영역입니다. Import의 사이드 바에서 드래그 해서 등록 가능하고, 가급적 폴더 단위로 불러오는 것을 추천 드립니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Film Strip / list&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/filmstrip.png&quot; alt=&quot;filmstrip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;파이널 컷은 해당 버튼에 마우스 오버를 하게 되면 ‘이것은 ~~에 쓰이는 기능입니다’를 아주 친절히 알려줍니다. 첨부된 이미지에 있는 문구는 대략 ‘필름 스트립 방식과 리스트 방식으로 볼 수 있어요~’라는 뜻인디&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/striplist.png&quot; alt=&quot;striplist&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;어떤 차이인지는 가장 직관적인 ‘이미지’로 설명을 줄이겠습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clip Appearance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/clipappearance.png&quot; alt=&quot;clipappearance&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;필름 스트립/리스트 바로 우측에 있는 버튼입네다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;브라우저에 띄운 자료들의 크기 조절&lt;/li&gt;
+    &lt;li&gt;시간 단위 조절&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;분류한 소스들을 더 자세히 볼 수 있게 커스텀 하는 영역이라고 볼 수 있죠. 여기서 소스들에 마우스 오버를 하고 이리저리 움직이면 해당 영역이 빠르게 play되는 것을 볼 수 있는데.. 이를 ‘스키밍’이라고 부릅니다. 대략적인 편집점이나 영상의 내용을 미리 확인할 수 있는 초특급 꿀 기능!&lt;/p&gt;
+
+&lt;p&gt;만약 여기서 오디오 스키밍 소리가 너무 조잡스럽고 거슬린다..! 하시면&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/audioskimming.png&quot; alt=&quot;audioskimming&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;’Turn Audio Skimming ~~’ 부분을 off 해주면 간단히 해결 (위치는 인스펙터 하단 부분)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/05/waveforms.png&quot; alt=&quot;waveforms&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그리고 브라우저에서 하단의 웨이브폼을 통해 ‘대략 어떤 볼륨이나 소리를 갖고 있는지’ 확인할 수 있습니다. 자료로 쓴 영상은 픽사베이에서 받은 건데, 오디오가 아예 없는 영상이었어요. 해서 웨이브 폼 영역이 공허함으로 남아 있습니다.&lt;/p&gt;
+
+&lt;p&gt;여튼 여기서 웨이브 폼을 언급한 이유는.. 영상 원본의 볼륨 설정을 적절하게 마친 후 편집에 들어가는 것이 중요하기 때문입니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Cotrol + [+/-]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이게 볼륨 조절 단축키니 마우스로 대~충 드래그해서 조절하지 말고 세세하게 조절하시길 바랍니다. 참고로 키보드 사용시 숫자 패드에 있는 +/-는 사용하지 마시는 것을 추천. 입력이 이따금씩 안 되는 문제가 있습니다.&lt;/p&gt;
+
+&lt;p&gt;여기까지가 Library 생성 - Import - 자료 스키밍 - Event 분류의 과정이었고, 키워드 분류 부터는 다음 포스트에..&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Jan 2020 20:00:00 +0900</pubDate>
+        <link>http://localhost:4000/dlog-fcpxinterface/</link>
+        <guid isPermaLink="true">http://localhost:4000/dlog-fcpxinterface/</guid>
+        
+        <category>파이널컷</category>
+        
+        <category>유튜브</category>
+        
+        <category>영상이론</category>
+        
+        <category>FCPX</category>
+        
+        
+        <category>video</category>
+        
+      </item>
+    
+      <item>
+        <title>아주 짤막한 영상 지식 - 3</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../img/post/04/post04.png&quot; alt=&quot;영상 썸네일&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;언제나 이론은 재미가 읎죠? 사실 저도 그런데.. 이것만 끝내고 얼른 파컷 초간단 매뉴얼로 넘어가도록 할게요 ^^&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;codec&quot;&gt;Codec&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  Compressor + Decompressor의 합성 및 줄임말
+&lt;/blockquote&gt;
+
+&lt;p&gt;영상은 무조건 손실과 압축의 과정을 거칩니다. 만약 영상이 Uncompressed 된 상태라면.. 무압축 1080이 1초에 1기가 정도의 용량을 자랑(?)한다고 하니까..! 이걸 돌리다가 여러분의 소중한 맥이 뻗어버리는 대참사가 벌어지겠죠?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;손실 = 화질 악화&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;를 의미하지만 압축이 꼭 필요한 이유가 바로 이것입니다. 영상을 압축한다고 할 때는 보통 ‘색 정보’를 압축한다는 의미이고, 이 손실률을 줄이는 것이 영상 관련한 회사들이 가지는 지상 목표라고 할 수 있죠.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Digital Container Format (Wrapper Format)&lt;/p&gt;
+
+    &lt;p&gt;여기서 잠깐..! 영상 파일을 보면 제목 뒤에 Quicktime(MOV), AVI, MKV, MP4, AIFF, WAV 등등 이런 것들이 붙죠? 이게 바로 코덱이 아니고 콘테이너입니다. 낚이면 안 돼요..?&lt;/p&gt;
+
+    &lt;p&gt;다시 코덱으로 돌아가면&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/04/gop vs intra.png&quot; alt=&quot;gopintra&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;요로코롬 GOP vs Intra Compression이 있습니다. 바로 밑에서 따로따로 설명해 드리죠.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GOP(Group of Pictures) Compression&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/04/gop.png&quot; alt=&quot;gop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;위의 그림을 보면 I, P, B가 있죠?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I = Intra - Coded Frame&lt;/p&gt;
+
+  &lt;p&gt;P = Predictive - Coded Frame&lt;/p&gt;
+
+  &lt;p&gt;B = Bidirectional - Coded Frame&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;여기서 인트라 영상의 모든 픽셀 정보를 가지고 있는 프레임이라고 보면 된다. P와 B는 변한 부분에 대한 프레임을 의미하는데..&lt;/p&gt;
+
+&lt;p&gt;정리해서 말하자면 I를 복사해서 P 그리고 B와 합성하는 방식이라고 보면 됩니다. 용량이 매우 작고 (비교적) 화질이 떨어지는 특징이 있습니다. 프레임 단위로 컴퓨터가 연산을 해야하기 때문에 편집에는 최악인 방식이라고 할 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;대표 코덱으로는..&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;AVCHD (MPEG-4/H.264)&lt;/li&gt;
+    &lt;li&gt;HDV&lt;/li&gt;
+    &lt;li&gt;MXF&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;가 있고 ‘출력 용도’의 코덱입니다. 압축률이 굉장히 높은 특징이 있어요!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Intra Compression&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/04/Intra.png&quot; alt=&quot;intra&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;전부 다~ Intra 프레임만 있는 경우입니다. 이 말인 즉슨! 용량이 무지~하게 크지만 컴퓨터의 연산 몫이 줄어 ‘편집’에 유리하다는 말이기도 합니다.&lt;/p&gt;
+
+&lt;p&gt;대표 코덱으로는..&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;DVCPRO HD&lt;/li&gt;
+    &lt;li&gt;ProRes&lt;/li&gt;
+    &lt;li&gt;AVC - Intra&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/04/video quality.png&quot; alt=&quot;longgop&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;대부분의 카메라가 GOP 방식을 따르고 있고, 이 말은 편집 때 컴퓨터에게 부담을 주지 않으려면 ‘컨버팅’이 필요하다는 것을 의미합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;ProRes&lt;/p&gt;
+
+    &lt;p&gt;애플느님이 만든 코덱이고 전세계적으로 극찬 받는 바로 그 코덱..! 심지어 어도비도 사서 쓰는 명품 코덱&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/04/ProRes.png&quot; alt=&quot;ProRes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;대략 요런 구성입니다. 보통 작업할 때는 422를 가장 많이 쓰고 ‘사둘둘’이라고 부릅니다. 제일 밑에 있는 Proxy의 경우는 원본의 50% ‘퀄리티’인데, 어떨 때 사용하느냐! &lt;strong&gt;멀티캠&lt;/strong&gt; 작업에 사용합니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ex. 효리네 민박 같은 편집량 과다한 고화질 관찰형 예능&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;혹은 개인이 덕질하는 수준에서는 멀티캠을 가장 많이 사용하는 아이돌 무대 ‘교차편집’ 정도..?&lt;/p&gt;
+
+&lt;p&gt;요는 고화질 다량의 소스를 작업할 때 프록시로 했다가, 출력은 고퀄 코덱으로 하시는 것을 추천&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;자 여기까지 정말 간단하고 짧은(?) 영상 이론이었고 3개의 문서를 종합해서 요약해 드리자면..&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;화면 사이즈&lt;/li&gt;
+    &lt;li&gt;Interlaced vs Progressive (Scan Method)&lt;/li&gt;
+    &lt;li&gt;Frame Rate&lt;/li&gt;
+    &lt;li&gt;Bit Depth&lt;/li&gt;
+    &lt;li&gt;Codec&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이 순으로 큰 개념들 간단하게 정리해두시고, 관련해서 구글링 하다 보면 모르는 용어를 추가로 정리해 두면 온갖 설정, 경고 메시지 등에 당황하지 않을 수 있습니다.&lt;/p&gt;
+
+&lt;p&gt;다음 시간부터는 본격 ‘파이널컷 X 초간단 매뉴얼’ 들어가도록 하겠습니다.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 29 Dec 2019 12:00:00 +0900</pubDate>
+        <link>http://localhost:4000/dlog-videoformat3/</link>
+        <guid isPermaLink="true">http://localhost:4000/dlog-videoformat3/</guid>
+        
+        <category>파이널컷</category>
+        
+        <category>유튜브</category>
+        
+        <category>영상이론</category>
+        
+        <category>FCPX</category>
+        
+        
+        <category>video</category>
+        
+      </item>
+    
+      <item>
+        <title>아주 짤막한 영상 지식 - 2</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../img/post/03/post03.png&quot; alt=&quot;영상 썸네일&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;참고로 이건 Video Format 두 번째 시간입니다. 첫 번째 포스트를 아직 열람하지 못하신 분들은 황급히 뒤로가기를 눌러 순서에 따라 내용을 확인하시기 바랍니다. 이미 영상이론에 대해 빠삭하다 자부하는 분들은 마우스를 내려놓고 이 페이지에서 나가 주시기 바랍니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;frame-rate초당-몇장을-찍었는가&quot;&gt;Frame Rate(초당 몇장을 찍었는가)&lt;/h3&gt;
+
+&lt;p&gt;오며 가며 29.97fps, 30fps 등 Frame Rate에 대한 다양한 값들을 구경은 했을 겁니다. 제목에 설명한대로 30fps는 초당 30장을 찍었다는 이야기입니다. 바꿔 말하면 30장의 프레임이 모여 1초의 영상을 구성했다는 이야기죠.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/03/post03-1.png&quot; alt=&quot;프레임 레이트 종류&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Frame Rate에 대한 값은 이렇게 다양합니다. (i에 관한 부분은 이전 포스트의 Interlaced Scan 부분을 참고) 촬영 단계부터 용도에 맞게 적절한 프레임 레이트를 설정해야, 깔끔한 작업에 도움이 되겠쥬?&lt;/p&gt;
+
+&lt;p&gt;참고로 전통 영화가 24p를 쓰는 이유는 &lt;strong&gt;1) 필름 값 2) 거친 느낌&lt;/strong&gt; 때문이라고 합니다&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;29.97 (30p)&lt;/li&gt;
+    &lt;li&gt;59.94 (60p)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(아마도 초기 세팅 때 가장 많이 만날 두 친구.. ㅎㅎ)&lt;/p&gt;
+
+&lt;p&gt;이 두 친구를 &lt;strong&gt;방송용&lt;/strong&gt; Frame Rate라 합니다. 우리에게 아~주 익숙한 720p 화질부터 60프레임 송출이 가능해졌는데요! 59.94 방식을 쓰는 거라고 보면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;+@ 120p or 240은 슬로우모션 용입니다. 초당 프레임 수가 많아야 길~~게 늘일 수 있다는 개념..!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Drop Frame&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/03/post03-2.png&quot; alt=&quot;Drop Frame&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Drop Frame이란 원래 &lt;strong&gt;‘끊겨 보인다’&lt;/strong&gt; 는 의미입니다. 그런데 왜 드랍 프레임을 쓰는 걸까요? 이유는 Timecode 방식 때문인데.. 바로 설명해 드릴게요?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Timecode&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;00:00:00:00 (시:분:초:프레임)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;영화는 24 프레임이라고 했쥬? 그럼 1~23프레임이 지나고 다음 24번 째 프레임이 되는 순간! 1초가 되는 겁니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/03/post03-3.png&quot; alt=&quot;NDF vs DF&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;NDF(Non Drop Frame)로 1시간을 촬영하면 타임 코드로는 1시간이 찍히지만 실제로 촬영한 시간은 01:00:03:18이 됩니다.&lt;/p&gt;
+
+&lt;p&gt;여러분이 방송국과 협업할 일이 생겨서 NDF로 촬영한 방송분을 넘겼는데, 실제 방송 러닝 타임 기준 1시간으로 자르면? 뒤에 3초 18은 스무스하게 삭제됩니다. 우리가 Frame Rate에 대해 정말 간단한 배경지식은 알아놔야 하는 이유를 아시겠죠?&lt;/p&gt;
+
+&lt;p&gt;영상 촬영 및 제작시 29.97fps 을 쓰려거들랑 무!조!건! Drop Frame Timecode를 쓰도록 합시다. 같은 이유로 영화나 드라마에서도 24가 아닌 23.98fps를 쓴다고 하니 알아두시면 좋을 듯&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;요약 결론 : 29.97과 23.98을 가장 많이 쓰고 DFT 설정해야 시간이 딱 맞는다&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bit Depth&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../img/post/03/post03-4.png&quot; alt=&quot;Bit Depth&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;비트맵 이미지나 비디오 프레임 버퍼수 또는 하나의 픽셀의 각 색요소를 위해 사용되는 비트 수를 말합니다.&lt;/p&gt;
+
+&lt;p&gt;우리가 흔히 말하는 ‘24 트루컬러’는 영상이나 이미지에서 8비트에 해당합니다. 이건 무슨 조화일까요? 여기서 힌트&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;이미지를 구성하는 3원색은 R.G.B (빛의 3원색)이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;그렇습니다. 비트 뎁스가 8비트면 x3 한 것이 컬러 값이 되는 것을 의미합니다. 대부분의 카메라는 8비트라고 하네요?&lt;/p&gt;
+
+&lt;p&gt;그럼 왜 점점 높은 비트로 영상을 촬영하고 제작하려는 걸까요? 이유는 색보정이나 합성에 유리하기 때문입니다. 프레임 수가 많으면 슬로우 모션 제작하기 용이한 것과 같은 이치입니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;고품질 = 후보정 용이&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;컬러 그레이딩 하지 않을 거면 굳이 10비트가 필요하지 않으니 참고하시기 바랍니다.&lt;/p&gt;
+
+&lt;p&gt;Codec 부터는 다음 포스트에..&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Dec 2019 12:00:00 +0900</pubDate>
+        <link>http://localhost:4000/dlog-videoformat2/</link>
+        <guid isPermaLink="true">http://localhost:4000/dlog-videoformat2/</guid>
+        
+        <category>파이널컷</category>
+        
+        <category>유튜브</category>
+        
+        <category>영상이론</category>
+        
+        <category>FCPX</category>
+        
+        
+        <category>video</category>
+        
+      </item>
+    
+      <item>
+        <title>아주 짤막한 영상 지식 - 1</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../img/post/02/post2.png&quot; alt=&quot;영상 썸네일&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;지금부터 나오는 이론은 ‘이것도 모른다면 대체 영상을 왜 하려고 하니?’를 스스로에게 되물어야 할 만큼 아주 기초적인 것이니, 가벼운 마음으로 쓱쓱 읽되 내가 몰랐던 건 필히 킵하고 가시길 바랍니다&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;video-format&quot;&gt;Video Format&lt;/h2&gt;
+
+&lt;p&gt;이 설정을 통해야만! 영상 편집이 ‘시작’된다고 볼 수 있습니다. 이걸 모르면 맨~ 처음 설정부터 머리가 아프기 시작하면서 영상을 때려치는 불상사가 발생합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;화면-사이즈resolution&quot;&gt;화면 사이즈(Resolution)&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SD&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;NTSC (480 Lines 60i, 30p)&lt;/li&gt;
+    &lt;li&gt;PAL (576 Lines 50i, 25p)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;미국과 우리나라는 NTSC 방식을 채택. 유럽에서는 PAL 방식을 채택하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HD&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;720p (1280x720)&lt;/li&gt;
+    &lt;li&gt;1080p (1920x1080)&lt;/li&gt;
+    &lt;li&gt;1080i (1920x1080)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;요즘 TV로 옛~~날 무한도전을 보면 좌우에 필러박스(송출 영역 제외한 좌우 여백)를 확인할 수 있습니다. 그러다 HD 이상 출력되는 TV와 방송 송출이 가능해지면서 오늘날의 예능을 시청할 수 있게 됐죠.&lt;/p&gt;
+
+&lt;p&gt;720p의 특징은 HD 60프레임 방송이 가능했다는 점입니다. 화질은 다소 떨어지지만 송출력은 높은 특징을 가지고 있습니다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Q. 그럼 왜 화면 사이즈가 점점 커질까요..?&lt;/p&gt;
+
+  &lt;p&gt;A. 제조사에서 디스플레이가 큰 제품을 찍어내니까..&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;참고로 FHD(풀 HD라 하는)는 용어(?)는 디스플레이 제조 회사가 만든 개념이고 정식 용어는 아니라고 합니다. 혹시 본인이 타인의 멘트에 지적질하기 좋아하는 꼰대라 자부하신다면 누군가 FHD 언급할 때 대놓고 면박주면 우왕굳.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;UHD&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;4K (3840x2160)&lt;/li&gt;
+    &lt;li&gt;5K (5120x2700)&lt;/li&gt;
+    &lt;li&gt;8K (7680x4320)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(4K는 3840인 가로 사이즈가 4천에 근접했다고 하여 4K라 부른다 합니다.)&lt;/p&gt;
+
+&lt;p&gt;기기는 고도화 됐는데 아직 모든 방송이 저 기기에 적합한 송출력을 가지고 있느냐..는 의문이 듭니다. 당장 매장에서 튼 초고화질 영상은 기기를 팔기 위해 제작한 영상이니 말이죠. 아마 큰맘 먹고 질렀는데 집에 와서 내가 보던 드라마 보면 상당히 흐릿한 것이 심심하고 픽셀도 다소 깨져보이는 듯한 느낌적인 느낌이 들 겁니다.&lt;/p&gt;
+
+&lt;p&gt;뭐.. 방 안에서 좁디 좁은 모니터로 볼지언정 블루레이를 모으던 이치랑 같지 않겠습니까? 영상 화질은 심심해도 화면은 광화문만한 사이즈로 보겠다 하시는 분들 이해해 줍시다.&lt;/p&gt;
+
+&lt;p&gt;참고로 영화관에서 보는 아이맥스는 16K 정도 된다고 합니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;scan-method&quot;&gt;Scan Method&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Interlaced Scan (ex. 1080i)&lt;/p&gt;
+
+    &lt;p&gt;이름에서 알 수 있듯이 짝수랑 홀수장을 빠르게 교차하며 보여주는 것을 의미합니다. 기술이 살짝 떨어지던 시절에 사용하던 방식인데.. 비교적 용량이 작은 것이 장점이었지만, 화질이 다소 떨어지는 단점이 있죠.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Field&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이 방식에서 아주 중요한 용어입니다. 예를 들어 50i라 함은 &lt;strong&gt;‘초당 50 필드를 찍었다’&lt;/strong&gt;는 것을 말합니다. 필드는 홀짝의 개념으로 프레임의 1/2 수치인데.. 50i 라는 것은 체감상 25프레임이라는 것을 의미하죠.&lt;/p&gt;
+
+&lt;p&gt;홀에 해당하는 odd와 짝에 해당하는 even으로 구성되어 있습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Progressive Scan (ex. 1080p)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Interlaced Scan 방식과 다르게 필름 촬영 방식에 근거합니다. 화질이 좋고 용량이 큰 단점(?)이 있는데, 요즘은 저장 장치 용량도 매우 크고 상대적으로 가격도 저렴해졌기 때문에 사실상 단점이 없다고 보면 됩니다.&lt;/p&gt;
+
+&lt;p&gt;얘기가 길어질 것 같으니 Frame Rate 부터는 다음 포스팅에..&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Dec 2019 12:00:00 +0900</pubDate>
+        <link>http://localhost:4000/dlog-videoformat1/</link>
+        <guid isPermaLink="true">http://localhost:4000/dlog-videoformat1/</guid>
+        
+        <category>파이널컷</category>
+        
+        <category>유튜브</category>
+        
+        <category>영상이론</category>
+        
+        <category>FCPX</category>
+        
+        
+        <category>video</category>
+        
+      </item>
+    
+      <item>
+        <title>D-log를 시작합니다</title>
+        <description>&lt;p&gt;&lt;img src=&quot;../img/post/01/post1.png&quot; alt=&quot;post1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​     고교 시절 미적분도 배우지 않았는데, 이제는 초등학생들도 코딩을 배운다고 합니다. 변화의 폭도 상당한데, 속도는 더 어마무시하죠. 저같은 순수 문돌이들에게 ‘앞으로는 융합형 인재가 되지 않는 이상 살아남을 수 없다’는, 일종의 경고이기도 합니다.&lt;/p&gt;
+
+&lt;p&gt;​    저 역시 아주 보통의 문과생 테크를 밟고 자라, 제가 할 일을 찾기 위해서는 고대 그리스로 가야하는 안타까운 사람 중 한 명입니다. 뒤늦게 이것저것 신문물을 영접하는 중이고, 내가 얼마나 아날로그한 사람이었는지 실감하는 중입니다. 평생 학습 시대라는데 다른 사람 얘기가 아니고 바로 제 얘기였죠.&lt;/p&gt;
+
+&lt;p&gt;​     이 블로그는 영상, 음성, 이미지, 글 등 콘텐츠의 모든 영역에서 이것저것 건드려보고, 깨지고, 다듬는 문돌이의 처절한(?) 후기로 채워질 예정입니다. 저에게는 ‘그래도 이것저것 시도해봤다’는 발자취가, 이곳에 들어온 다른 분들에겐 약으로 쓸 개똥 정도로 쓰이길 바랍니다.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 12 Dec 2019 15:00:00 +0900</pubDate>
+        <link>http://localhost:4000/opening-dlog/</link>
+        <guid isPermaLink="true">http://localhost:4000/opening-dlog/</guid>
+        
+        <category>데인</category>
+        
+        <category>dane</category>
+        
+        <category>데인로그</category>
+        
+        <category>인사말</category>
+        
+        <category>블로그</category>
+        
+        
+        <category>Ssul</category>
+        
+      </item>
+    
+      <item>
+        <title>Craft Beer</title>
+        <description>&lt;p&gt;Etsy squid occupy pop-up. Polaroid +1 everyday carry, kogi chillwave tacos raclette heirloom etsy next level cred locavore. Blog street art DIY, pug crucifix asymmetrical chicharrones. Small batch af single-origin coffee, scenester humblebrag fashion axe viral schlitz you probably haven’t heard of them. Kickstarter synth poutine brunch hoodie. Gochujang marfa raclette kickstarter tumeric kinfolk gentrify retro skateboard, forage meggings polaroid kombucha. Tilde mlkshk fam meggings.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Actually YOLO marfa tofu shabby chic snackwave. Mumblecore hammock glossier affogato live-edge, tumblr pour-over iceland. Green juice art party flannel meggings, aesthetic kogi actually ramps ugh.&lt;/li&gt;
+  &lt;li&gt;Church-key crucifix messenger bag health goth&lt;/li&gt;
+  &lt;li&gt;Try-hard artisan direct trade&lt;/li&gt;
+  &lt;li&gt;Cold-pressed selfies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Actually YOLO marfa tofu shabby chic snackwave. Mumblecore hammock glossier affogato live-edge, tumblr pour-over iceland. Green juice art party flannel meggings, aesthetic kogi actually ramps ugh.&lt;/li&gt;
+  &lt;li&gt;Church-key crucifix messenger bag health goth&lt;/li&gt;
+  &lt;li&gt;Try-hard artisan direct trade&lt;/li&gt;
+  &lt;li&gt;Cold-pressed selfies&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Subway tile&lt;/h3&gt;
+&lt;p&gt;Knausgaard readymade williamsburg tote bag taxidermy, DIY meditation copper mug. Farm-to-table &lt;a href=&quot;#&quot;&gt;street art&lt;/a&gt; fixie, chambray vice literally four loko vaporware. Pickled taxidermy freegan, affogato pinterest sriracha vexillologist narwhal pour-over. Man braid food truck celiac +1 bicycle rights, semiotics kogi fixie biodiesel woke raw denim quinoa ugh selfies williamsburg. Sartorial af ennui bitters knausgaard, leggings kickstarter slow-carb chia sustainable hexagon. Prism 3 wolf moon occupy ramps wayfarers tumblr narwhal 90’s. Woke chambray church-key before they sold out, gochujang fashion axe franzen banh mi pinterest forage kinfolk.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://picsum.photos/2000/1200?image=1003&quot; alt=&quot;Placeholder&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Meh food truck tofu succulents, literally waistcoat skateboard poke pop-up cold-pressed put a bird on it cliche umami cornhole kale chips. Man braid 8-bit irony selvage, butcher blog everyday carry. Af meggings tacos ugh la croix skateboard. Biodiesel paleo prism kombucha seitan drinking vinegar. Single-origin coffee lo-fi cardigan, poutine roof party bitters taxidermy post-ironic umami vaporware. Austin edison bulb leggings cliche. Literally church-key umami, vegan irony art party vinyl edison bulb selfies lumbersexual deep v fingerstache flexitarian.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  Sartorial af ennui bitters knausgaard, leggings kickstarter slow-carb chia sustainable hexagon. Prism 3 wolf moon occupy ramps wayfarers tumblr narwhal 90's.
+  &lt;cite&gt;Man braid&lt;/cite&gt;
+&lt;/blockquote&gt;
+
+&lt;h4&gt;Subway tile&lt;/h4&gt;
+&lt;p&gt;Slow-carb cornhole crucifix thundercats intelligentsia. Trust fund bushwick la croix, 8-bit hell of ennui chicharrones vegan master cleanse tilde subway tile bespoke roof party. Next level celiac bushwick coloring book subway tile. Lyft knausgaard four loko, twee sustainable narwhal letterpress PBR&amp;amp;B kombucha paleo mixtape helvetica. Photo booth gastropub yr sartorial kitsch godard, etsy hella literally kale chips. Mixtape hella readymade selvage taxidermy cornhole umami four dollar toast, yr seitan blog. Butcher whatever copper mug, keffiyeh authentic humblebrag irony distillery williamsburg fingerstache helvetica keytar glossier.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://picsum.photos/2000/1200?image=1003&quot; alt=&quot;Placeholder&quot; /&gt;
+  &lt;figcaption&gt;Gentrify cray pug authentic, cliche listicle actually subway tile woke semiotics af.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Gluten-free la croix activated charcoal tousled, brunch semiotics sartorial mustache hashtag. Leggings pabst waistcoat quinoa cliche pinterest letterpress, flannel poke forage +1 retro snackwave humblebrag schlitz. Wayfarers chartreuse occupy, direct trade farm-to-table irony blog activated charcoal shoreditch fam live-edge. Intelligentsia scenester gochujang gentrify portland offal. Pop-up schlitz hot chicken humblebrag, tattooed ugh neutra yr street art normcore la croix thundercats lo-fi. Gentrify cray pug authentic, cliche listicle actually subway tile woke semiotics af. Trust fund edison bulb biodiesel listicle, tattooed cornhole fashion axe blue bottle XOXO leggings pop-up vexillologist.&lt;/p&gt;
+
+&lt;p&gt;Pinterest cold-pressed selfies man bun twee williamsburg irony, art party snackwave tumeric knausgaard marfa polaroid chambray. PBR&amp;amp;B semiotics selvage brooklyn hexagon cray. Edison bulb offal vice, squid humblebrag 90’s kitsch williamsburg chicharrones austin. Poke 3 wolf moon selfies banh mi farm-to-table raclette. +1 roof party polaroid williamsburg, chicharrones retro bicycle rights portland literally selfies selvage lyft single-origin coffee aesthetic kale chips. Blog yr la croix four loko beard. Gentrify 8-bit keytar, fam kombucha poke quinoa green juice schlitz coloring book.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Feb 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/craft-beer</link>
+        <guid isPermaLink="true">http://localhost:4000/craft-beer</guid>
+        
+        
+        <category>Juice</category>
+        
+      </item>
+    
+  </channel>
+</rss>

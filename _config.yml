@@ -1,0 +1,54 @@
+# Site/SEO settings
+email: "dane_min@naver.com"
+permalink: /:title
+google_analytics: UA-154666348-1
+
+title: D-Log
+tagline: 뼛속까지 문과생 콘텐츠 생존기
+description: "결국은 콘텐츠도 혼자서 다 만들 줄 알아야겠죠?"
+url: "https://dane-log10.kr"
+locale: "ko_KR"
+thumbnail: "/img/thumbnail/dlogmain.png"
+twitter_username: dane10st
+default_img: "/img/thumbnail/dlogmain.png"
+
+# Profile settings
+name: "Dane Min"
+profile_img: "/img/profile.png"
+profile: "뼛속까지 문돌이로 태어나 대학은 공대로 가는 무리수를 둔 덕에 전과, 편입, 자퇴, 재입학을 모두 해본.. 셀프 가시밭길 걷는 인간으로 학업을 마침. 주둥이에서 뽑아낸 멋드러진 드립과 알량한 철학 한 스푼 있고, 잔소리 대신 일자리는 받습니다."
+social:
+  facebook: "https://www.facebook.com/dane10st"
+  instagram: "https://www.instagram.com/podcast_dd"
+  youtube: "https://www.youtube.com/channel/UCfDzJh9_FMKgsJ7cbBQUM_w"
+  github: "https://github.com/Dane10st/danelog"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - octopress-autoprefixer
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+exclude:
+  - _screenshots
+  - .DS_Store
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - README.md
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page-:num"
+
+# Sass
+sass:
+  style: compressed
+
+# 블로그 disqus shortname
+disqus:
+  shortname: danelog
