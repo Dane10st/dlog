@@ -1,8 +1,9 @@
 ---
 layout: post
-title: 파이널컷 프로 X 기본 인터페이스 
+title: 파이널컷 프로 X 기본 인터페이스
 date: 2020-01-05 20:00:00 +09:00
 author: "Dane"
+content_id: 5
 permalink: /dlog-fcpxinterface/
 categories:
   - video
@@ -109,7 +110,7 @@ image-sm: "../img/post/05/post5sm.png"
 
   여튼 여기서 웨이브 폼을 언급한 이유는.. 영상 원본의 볼륨 설정을 적절하게 마친 후 편집에 들어가는 것이 중요하기 때문입니다.
 
->   Cotrol + [+/-] 
+>   Cotrol + [+/-]
 
   이게 볼륨 조절 단축키니 마우스로 대~충 드래그해서 조절하지 말고 세세하게 조절하시길 바랍니다. 참고로 키보드 사용시 숫자 패드에 있는 +/-는 사용하지 마시는 것을 추천. 입력이 이따금씩 안 되는 문제가 있습니다.
 

@@ -1,8 +1,9 @@
 ---
 layout: post
-title: 아주 짤막한 영상 지식 - 2 
+title: 아주 짤막한 영상 지식 - 2
 date: 2019-12-16 12:00:00 +09:00
 author: "Dane"
+content_id: 3
 permalink: /dlog-videoformat2/
 categories:
   - video
@@ -13,7 +14,7 @@ tags:
   - FCPX
 description: Video Format 두 번째 시간으로 Frame Rate와 Bit Depth에 대해 아주 살짝 맛보는 시간을 갖도록 하겠다. 이것에 대한 개념 없이 영상 툴부터 배우려 한다면 초기 설정부터 꽉 막혀서 영상을 그만두는 불상사가 생길 수도 있으니 꼭 익혀두도록 하자
 image: "../img/post/03/post02.png"
-image-sm: "../img/post/03/post02sm.png" 
+image-sm: "../img/post/03/post02sm.png"
 ---
 
 ![영상 썸네일](../img/post/03/post03.png)
@@ -75,7 +76,7 @@ image-sm: "../img/post/03/post02sm.png"
 
 ![Bit Depth](../img/post/03/post03-4.png)
 
- 비트맵 이미지나 비디오 프레임 버퍼수 또는 하나의 픽셀의 각 색요소를 위해 사용되는 비트 수를 말합니다. 
+ 비트맵 이미지나 비디오 프레임 버퍼수 또는 하나의 픽셀의 각 색요소를 위해 사용되는 비트 수를 말합니다.
 
   우리가 흔히 말하는 '24 트루컬러'는 영상이나 이미지에서 8비트에 해당합니다. 이건 무슨 조화일까요? 여기서 힌트
 

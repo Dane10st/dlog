@@ -3,6 +3,7 @@ layout: post
 title: 파이널컷 프로 X 기본 인터페이스 2
 date: 2020-01-05 21:00:00 +09:00
 author: "Dane"
+content_id: 6
 permalink: /dlog-fcpxinterface2/
 image: "../img/post/06/post6.png"
 image-sm: "../img/post/06/post6sm.png"  

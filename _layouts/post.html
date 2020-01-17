@@ -66,3 +66,11 @@ layout: default
 {% endif %}
 
 {% include disqus.html %}
+
+<script>
+  dataLayer.push({
+    'event': 'viewContent',
+    'contentTitle': '{{ page.title }}',
+    'contentId': '{{ page.content_id }}',
+  });
+</script>
